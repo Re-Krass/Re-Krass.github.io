@@ -1,2 +1,3 @@
-# Re-Krass.github.io
-Re-Krass website
+# Re-Krass website
+
+Go to [website (Re-Krass.github.io)](https://Re-Krass.github.io)
