@@ -1,0 +1,5 @@
+{
+	"hooks": {
+		"pre-commit": "cd re-krass-website\ && npm run lint && git add *.js *.vue"
+	}
+}
