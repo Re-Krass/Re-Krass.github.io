@@ -12,11 +12,9 @@
     <img alt="Uptime Robot ratio (7 days)" src="https://img.shields.io/uptimerobot/ratio/7/m782535867-ce1bb7ff30e026c0a19cdfda.svg?style=for-the-badge">
   </a>
   <!-- Vulnerabilities -->
-  <a target="_blank" href="https://snyk.io/test/github/Re-Krass/Re-Krass.github.io">
-    <img alt="Snyk Vulnerabilities for GitHub Repo" src="https://img.shields.io/snyk/vulnerabilities/github/Re-Krass/Dark-Theme-TUB.svg?style=for-the-badge">
-  </a>
+  <img alt="Snyk Vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/Re-Krass/Re-Krass.github.io/re-krass-website/package.json.svg?style=for-the-badge">
   <!-- Code Quality Codacy -->
-<a target="_blank" href="https://www.codacy.com/app/Re-Krass/Re-Krass.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Re-Krass/Re-Krass.github.io&amp;utm_campaign=Badge_Grade">
+<a target="_blank" href="https://www.codacy.com/app/Re_Krass/Re-Krass.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Re-Krass/Re-Krass.github.io&amp;utm_campaign=Badge_Grade">
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/3ab38cd57db94a4c806e28549b09df50.svg?style=for-the-badge">
   </a>
   <!-- Cody Style Prettier -->
