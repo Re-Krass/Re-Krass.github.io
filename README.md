@@ -1,6 +1,8 @@
+<p align="center">
+  <img alt="YDL Logo" src="/images/Re-Krass_logo_256px.png" width="256">
+</p>
 <h1 align="center">Re-Krass Homepage</h1>
 <p align="center">
-  <br>
   <!-- Website up status -->
   <a target="_blank" href="https://stats.uptimerobot.com/gkNylh6Jg">
     <img alt="Website" src="https://img.shields.io/website/https/re-krass.github.io.svg?down_message=offline&style=for-the-badge">
@@ -24,5 +26,5 @@
 </p>
 
 -----
-
+<br>
 Go to: [website (Re-Krass.github.io)](https://Re-Krass.github.io)

@@ -84,7 +84,7 @@ export default {
                 anim_elem.classList.toggle("shake-animation-active");
                 setTimeout(() => {
                     anim_elem.classList.remove("shake-animation-active");
-                }, 300);
+                }, 100);
             }
         },
         getLastModified() {
@@ -164,10 +164,8 @@ html
     height: 45px !important
 
 .shake-animation-active
-    // animation: shake 0.3s
-    animation: shake 3s
-    // animation-iteration-count: 0.3s
-    animation-iteration-count: 3s
+    animation: shake 0.4s
+    animation-iteration-count: 0.4s
 
 @keyframes shake
     0%
