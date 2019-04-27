@@ -1,0 +1,16 @@
+/* FIXME: base (reset must be on top) */
+@import './base/reset';
+/* abstracts */
+@import './abstracts/variables';
+/* base */
+@import './base/base';
+/* components */
+@import './components/collapsible';
+@import './components/script-box';
+@import './components/window';
+@import './components/scrollbar';
+/* pages */
+@import './pages/index';
+
+/* vendor */
+@import './vendor/_include-media';
