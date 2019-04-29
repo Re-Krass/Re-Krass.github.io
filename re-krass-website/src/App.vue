@@ -138,7 +138,6 @@ html
     opacity: 0
 
 #app
-    // font-family: "Avenir", Helvetica, Arial, sans-serif
     font-family: "Source Code Pro", monospace !important
     font-size: 15px
     -webkit-font-smoothing: antialiased
