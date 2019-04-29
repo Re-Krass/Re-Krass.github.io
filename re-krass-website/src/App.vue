@@ -84,7 +84,7 @@ export default {
                 anim_elem.classList.toggle("shake-animation-active");
                 setTimeout(() => {
                     anim_elem.classList.remove("shake-animation-active");
-                }, 100);
+                }, 400);
             }
         },
         getLastModified() {

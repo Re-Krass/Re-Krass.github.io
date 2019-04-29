@@ -10,7 +10,7 @@ export default new Router({
     routes: [
         {
             path: "/",
-            name: "home",
+            name: "Re-Krass Homepage",
             component: Home
         }
     ]
