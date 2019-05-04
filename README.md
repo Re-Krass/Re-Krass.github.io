@@ -25,4 +25,7 @@
 
 -----
 <br>
-Go to: [website (Re-Krass.github.io)](https://Re-Krass.github.io)
+
+Visit:
+<a target="_blank" href="https://Re-Krass.github.io/">Homepage
+  </a>
