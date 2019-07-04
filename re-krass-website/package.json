@@ -19,7 +19,7 @@
     "vue-router": "^3.0.3",
     "vue-router-sitemap": "0.0.4",
     "vuetify": "^1.5.13",
-    "snyk": "^1.161.1"
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.6.0",
