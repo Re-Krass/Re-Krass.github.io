@@ -25,7 +25,7 @@ npm run test
 npm run lint
 ```
 
-## Vuese Dosumentation
+## Vuese Documentation
 ```
 vuese gen
 ```
