@@ -1,6 +1,5 @@
-﻿cd re-krass-website; 
-npm run lint;
-npm run build;
+﻿pnpm run lint;
+pnpm run build;
 vuese gen;
 cd ..;
 robocopy /S /E .\website-build .\ /move;
