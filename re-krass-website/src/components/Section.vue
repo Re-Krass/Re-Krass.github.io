@@ -8,9 +8,8 @@
                 <v-list-tile-title>{{ title }}</v-list-tile-title>
             </v-list-tile-content>
         </v-list-tile>
-        <!-- TODO: Besseren Namen ausdenken! -->
         <!-- Description -->
-        <slot name="slot-name">
+        <slot>
             <!-- "" -->
         </slot>
     </v-list>

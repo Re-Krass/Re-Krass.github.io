@@ -16,7 +16,7 @@
 <!-- @vuese:Section:slots:start -->
 |Name|Description|Default Slot Content|
 |---|---|---|
-|slot-name|Description|""|
+|default|Description|""|
 
 <!-- @vuese:Section:slots:end -->
 
