@@ -5,9 +5,9 @@
 <!-- @vuese:ImageCard:props:start -->
 |Name|Description|Type|Required|Default|
 |---|---|---|---|---|
-|imageSrc|-|`String`|`false`|""|
-|titleName|-|`String`|`false`|""|
-|linkHref|-|`String`|`false`|""|
+|imageSrc|Description|`String`|`false`|""|
+|titleName|Description|`String`|`false`|""|
+|linkHref|Description|`String`|`false`|""|
 
 <!-- @vuese:ImageCard:props:end -->
 

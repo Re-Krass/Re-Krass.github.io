@@ -26,23 +26,51 @@
 export default {
     name: "ThemeCard",
     props: {
+        // Description
         headline: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                default: ""
+            }
         },
+        // Description
         content: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                default: ""
+            }
         },
+        // Description
         buttonText: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                default: ""
+            }
         },
+        // Description
         link: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                default: ""
+            }
         },
-        showTooltip: Boolean
+        // Description
+        showTooltip: {
+            type: Boolean,
+            default: false,
+            name: {
+                type: Boolean,
+                default: false
+            }
+        }
     }
 };
 </script>

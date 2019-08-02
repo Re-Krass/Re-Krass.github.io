@@ -6,7 +6,6 @@
             height="200px"
             :alt="titleName + ' profile picture'"
         ></v-img>
-
         <v-card-title id="v-card-title" primary-title>
             <div>
                 <h3 class="headline mb-0">
@@ -24,17 +23,35 @@
 export default {
     name: "ImageCard",
     props: {
+        // Description
         imageSrc: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                // required: true,
+                default: ""
+            }
         },
+        // Description
         titleName: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                // required: true,
+                default: ""
+            }
         },
+        // Description
         linkHref: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                // required: true,
+                default: ""
+            }
         }
     }
 };

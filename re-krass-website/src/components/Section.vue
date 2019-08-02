@@ -8,7 +8,11 @@
                 <v-list-tile-title>{{ title }}</v-list-tile-title>
             </v-list-tile-content>
         </v-list-tile>
-        <slot></slot>
+        <!-- TODO: Besseren Namen ausdenken! -->
+        <!-- Description -->
+        <slot name="slot-name">
+            <!-- "" -->
+        </slot>
     </v-list>
 </template>
 
@@ -16,13 +20,23 @@
 export default {
     name: "Section",
     props: {
+        // Description
         icon: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                default: ""
+            }
         },
+        // Description
         title: {
             type: String,
-            default: ""
+            default: "",
+            name: {
+                type: String,
+                default: ""
+            }
         }
     }
 };

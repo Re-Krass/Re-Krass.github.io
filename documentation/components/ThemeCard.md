@@ -5,11 +5,11 @@
 <!-- @vuese:ThemeCard:props:start -->
 |Name|Description|Type|Required|Default|
 |---|---|---|---|---|
-|headline|-|`String`|`false`|""|
-|content|-|`String`|`false`|""|
-|buttonText|-|`String`|`false`|""|
-|link|-|`String`|`false`|""|
-|showTooltip|-|`Boolean`|`false`|-|
+|headline|Description|`String`|`false`|""|
+|content|Description|`String`|`false`|""|
+|buttonText|Description|`String`|`false`|""|
+|link|Description|`String`|`false`|""|
+|showTooltip|Description|`Boolean`|`false`|false|
 
 <!-- @vuese:ThemeCard:props:end -->
 

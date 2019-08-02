@@ -5,8 +5,8 @@
 <!-- @vuese:Section:props:start -->
 |Name|Description|Type|Required|Default|
 |---|---|---|---|---|
-|icon|-|`String`|`false`|""|
-|title|-|`String`|`false`|""|
+|icon|Description|`String`|`false`|""|
+|title|Description|`String`|`false`|""|
 
 <!-- @vuese:Section:props:end -->
 
@@ -16,7 +16,7 @@
 <!-- @vuese:Section:slots:start -->
 |Name|Description|Default Slot Content|
 |---|---|---|
-|default|-|-|
+|slot-name|Description|""|
 
 <!-- @vuese:Section:slots:end -->
 
