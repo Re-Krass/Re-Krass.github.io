@@ -25,10 +25,26 @@ pnpm run test
 pnpm run lint
 ```
 
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 ## Vuese Documentation
-```
+```bash
+# generate documentation
 vuese gen
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Vuese](https://vuese.org/cli/) documentation.
+
+## Docsify Documentation
+```bash
+# init
+docsify init ..\docs\
+
+# preview site
+docsify serve ..\docs\
+```
+
+Preview server [Server](http://localhost:3000)
+
+See [Docsify](https://docsify.js.org/#/quickstart) documentation.
