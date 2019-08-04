@@ -6,7 +6,6 @@ This is a documentation for used Vue components.
 
 ## Links
 
-
 Visit:
 
 * <a target="_blank" href="https://Re-Krass.github.io/">Homepage
