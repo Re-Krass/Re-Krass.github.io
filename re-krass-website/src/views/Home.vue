@@ -1,153 +1,116 @@
-<template>
-    <div class="home">
-        <v-container grid-list-md fluid>
-            <!-- Section 1 - Informations -->
+<template lang="pug">
+div.home
+    v-container(grid-list-md fluid)
+        // Section 1 - Informations
+        v-layout
+            v-flex(xs12)
+                section(icon="info" title="Informations")
+                    .text-container
+                        | On this site you can discover my University projects and private projects.
+        // Section 1.2 - Certificates
+        v-layout
+            v-flex(xs12)
+                section(icon="attach_file" title="Certificates")
+                    //- v-flex(xs6)
+                        v-img(src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/13648227" width="500px")
+                    //- v-flex(xs6)
+                        v-img(src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/13648227" width="300px")
+                    .text-container
+                        | On this site you can discover my University projects and private
+                        | projects.
+        // Section 2 - Personal projects
+        v-layout
+            v-flex(xs12)
+                section(icon="code" title="Personal projects")
+                    v-layout#text-cards-container(wrap)
+                        v-flex#text-card(xs12 sm6 md4)
+                            themecard(headline="Dark Theme for TUB sites" content="Dark theme for ISIS-TUB and MOSES-TUB site." link="https://github.com/dark-theme-styles/Dark-Theme-TUB" button-text="Go to project")
+        // Section 3 - Uni projects
+        v-layout
+            v-flex(xs12)
+                section(icon="code" title="University projects")
+                    v-layout#text-cards-container(wrap)
+                        // Card 1
+                        v-flex#text-card(xs12 sm6 md4)
+                            themecard(headline="Y&D Learning Website" content="Website for Y&D Learning." link="https://ydlearning.com" button-text="Visit page")
+                        // Card 2
+                        v-flex#text-card(xs12 sm6 md4)
+                            themecard(headline="Y&D Learning V2 Frontend" content="Frontend for Y&D Learning V2 made in Vue." link="https://github.com/ydlearning/ydl-v2-front" button-text="Go to project")
+                        // Card 3
+                        v-flex#text-card(xs12 sm6 md4)
+                            themecard(headline="Y&D Learning V2 Backend / API" content="Backend for Y&D Learning V2 made in Django REST framework. " link="https://github.com/ydlearning/ydl-v2-api" button-text="Go to project")
+        // Section 4 - Links
+        //
             <v-layout>
-                <v-flex xs12>
-                    <Section icon="info" title="Informations">
-                        <div class="text-container">
-                            On this site you can discover my University projects and private
-                            projects.
-                        </div>
-                    </Section>
-                </v-flex>
+            <v-flex xs12>
+            <Section icon="link" title="Links">
+            <div class="text-container">
+            <ul>
+            <li>
+            Visit our Dark-Theme-TUB website for more informations:
+            <p>
+            <img
+            id="icons"
+            src="https://raw.githubusercontent.com/dark-theme-styles/dark-theme-styles.github.io/master/images/favicon/android-chrome-512x512.png"
+            alt="homepage favicon"
+            />
+            <a
+            href="https://dark-theme-styles.github.io/Dark-Theme-TUB"
+            target="_blank"
+            >visit project website</a
+            >
+            </p>
+            </li>
+            <li>
+            Visit our Homepage for more dark theme projects:
+            <p>
+            <img
+            id="icons"
+            src="https://raw.githubusercontent.com/dark-theme-styles/dark-theme-styles.github.io/master/images/favicon/android-chrome-512x512.png"
+            alt="homepage favicon"
+            />
+            <a
+            href="https://dark-theme-styles.github.io"
+            target="_blank"
+            >visit Homepage</a
+            >
+            </p>
+            </li>
+            <li>
+            GitHub Dark-Theme-TUB project:
+            <p>
+            <a
+            href="https://github.com/dark-theme-styles/Dark-Theme-TUB"
+            target="_blank"
+            >visit on GitHub</a
+            >
+            </p>
+            </li>
+            <li>
+            GitHub Dark Theme Styles Organization page:
+            <p>
+            <a
+            href="https://github.com/dark-theme-styles"
+            target="_blank"
+            >visit on GitHub</a
+            >
+            </p>
+            </li>
+            </ul>
+            </div>
+            </Section>
+            </v-flex>
             </v-layout>
-            <!-- Section 2 - Private projects -->
-            <v-layout>
-                <v-flex xs12>
-                    <Section icon="code" title="Private projects">
-                        <v-layout id="text-cards-container" wrap>
-                            <v-flex id="text-card" xs12 sm6 md4>
-                                <ThemeCard
-                                    headline="Dark Theme for TUB sites"
-                                    content="Dark theme for ISIS-TUB and MOSES-TUB site."
-                                    link="https://github.com/dark-theme-styles/Dark-Theme-TUB"
-                                    button-text="Go to project"
-                                ></ThemeCard>
-                            </v-flex>
-                        </v-layout>
-                    </Section>
-                </v-flex>
-            </v-layout>
-            <!-- Section 3 - Uni projects -->
-            <v-layout>
-                <v-flex xs12>
-                    <Section icon="code" title="University projects">
-                        <v-layout id="text-cards-container" wrap>
-                            <!-- Card 1 -->
-                            <v-flex id="text-card" xs12 sm6 md4>
-                                <ThemeCard
-                                    headline="Y&D Learning Website"
-                                    content="Website for Y&D Learning."
-                                    link="https://ydlearning.com"
-                                    button-text="Visit page"
-                                ></ThemeCard>
-                            </v-flex>
-                            <!-- Card 2 -->
-                            <v-flex id="text-card" xs12 sm6 md4>
-                                <ThemeCard
-                                    headline="Y&D Learning V2 Frontend"
-                                    content="Frontend for Y&D Learning V2 made in Vue."
-                                    link="https://github.com/ydlearning/ydl-v2-front"
-                                    button-text="Go to project"
-                                ></ThemeCard>
-                            </v-flex>
-                            <!-- Card 3 -->
-                            <v-flex id="text-card" xs12 sm6 md4>
-                                <ThemeCard
-                                    headline="Y&D Learning V2 Backend / API"
-                                    content="Backend for Y&D Learning V2 made in Django REST framework. "
-                                    link="https://github.com/ydlearning/ydl-v2-api"
-                                    button-text="Go to project"
-                                ></ThemeCard>
-                            </v-flex>
-                        </v-layout>
-                    </Section>
-                </v-flex>
-            </v-layout>
-            <!-- Section 4 - Links -->
-            <!-- <v-layout>
-                <v-flex xs12>
-                    <Section icon="link" title="Links">
-                        <div class="text-container">
-                            <ul>
-                                <li>
-                                    Visit our Dark-Theme-TUB website for more informations:
-                                    <p>
-                                        <img
-                                            id="icons"
-                                            src="https://raw.githubusercontent.com/dark-theme-styles/dark-theme-styles.github.io/master/images/favicon/android-chrome-512x512.png"
-                                            alt="homepage favicon"
-                                        />
-                                        <a
-                                            href="https://dark-theme-styles.github.io/Dark-Theme-TUB"
-                                            target="_blank"
-                                            >visit project website</a
-                                        >
-                                    </p>
-                                </li>
-                                <li>
-                                    Visit our Homepage for more dark theme projects:
-                                    <p>
-                                        <img
-                                            id="icons"
-                                            src="https://raw.githubusercontent.com/dark-theme-styles/dark-theme-styles.github.io/master/images/favicon/android-chrome-512x512.png"
-                                            alt="homepage favicon"
-                                        />
-                                        <a
-                                            href="https://dark-theme-styles.github.io"
-                                            target="_blank"
-                                            >visit Homepage</a
-                                        >
-                                    </p>
-                                </li>
-                                <li>
-                                    GitHub Dark-Theme-TUB project:
-                                    <p>
-                                        <a
-                                            href="https://github.com/dark-theme-styles/Dark-Theme-TUB"
-                                            target="_blank"
-                                            >visit on GitHub</a
-                                        >
-                                    </p>
-                                </li>
-                                <li>
-                                    GitHub Dark Theme Styles Organization page:
-                                    <p>
-                                        <a
-                                            href="https://github.com/dark-theme-styles"
-                                            target="_blank"
-                                            >visit on GitHub</a
-                                        >
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </Section>
-                </v-flex>
-            </v-layout> -->
-            <!-- Section 5 - Author -->
-            <v-layout>
-                <v-flex xs12>
-                    <Section icon="code" title="Author">
-                        <div class="window__content">
-                            <v-layout id="users-card" wrap justify-content-center>
-                                <v-layout justify-content-center>
-                                    <v-flex xs12 offset-xs2 sm12 offset-sm4 offset-md5>
-                                        <ImageCard
-                                            image-src="https://avatars1.githubusercontent.com/u/38668040"
-                                            title-name="Re-Krass"
-                                            link-href="https://github.com/Re-Krass"
-                                        ></ImageCard>
-                                    </v-flex>
-                                </v-layout>
-                            </v-layout>
-                        </div>
-                    </Section>
-                </v-flex>
-            </v-layout>
-        </v-container>
-    </div>
+        // Section 5 - Author
+        v-layout
+            v-flex(xs12)
+                section(icon="code" title="Author")
+                    .window__content
+                        v-layout#users-card(wrap justify-content-center)
+                            v-layout(justify-content-center)
+                                v-flex(xs12 offset-xs2 sm12 offset-sm4 offset-md5)
+                                    imagecard(image-src="https://avatars1.githubusercontent.com/u/38668040" title-name="Re-Krass" link-href="https://github.com/Re-Krass")
+
 </template>
 
 <script>

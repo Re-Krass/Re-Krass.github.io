@@ -14,6 +14,8 @@ module.exports = {
         parser: "babel-eslint"
     },
 
+    plugins: ["pug"],
+
     // recommend linting
     // extends: ["plugin:vue/recommended", "@vue/prettier", "plugin:prettier/recommended"],
 
