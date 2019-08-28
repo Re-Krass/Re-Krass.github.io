@@ -6,7 +6,7 @@
                 <v-flex xs12>
                     <Section icon="info" title="Informations">
                         <div class="text-container">
-                            On this site you can discover my University projects and private
+                            On this site you can discover my University projects and personal
                             projects.
                         </div>
                     </Section>
@@ -18,7 +18,7 @@
                     <Section icon="attach_file" title="Certificates">
                         <div class="text-container">
                             <v-layout row wrap>
-                                <v-flex xs7>
+                                <v-flex xs12 md7>
                                     <v-tooltip bottom>
                                         <template v-slot:activator="{ on: tooltip }">
                                             <a
@@ -40,7 +40,7 @@
                                         >
                                     </v-tooltip>
                                 </v-flex>
-                                <v-flex xs5>
+                                <v-flex xs12 md5>
                                     <v-tooltip bottom>
                                         <template v-slot:activator="{ on: tooltip }">
                                             <a
