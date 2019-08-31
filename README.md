@@ -22,6 +22,9 @@
 </p>
 
 -----
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9d29f061c78e4cb8806967c7a09623ab)](https://app.codacy.com/app/Re_Krass/Re-Krass.github.io?utm_source=github.com&utm_medium=referral&utm_content=Re-Krass/Re-Krass.github.io&utm_campaign=Badge_Grade_Dashboard)
+
 <br>
 
 Visit:
