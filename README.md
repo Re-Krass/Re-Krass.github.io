@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="YDL Logo" src="/images/Re-Krass_logo_256px.png" width="256">
+  <img alt="Profile Logo" src="/images/Re-Krass_logo_256px.png" width="256">
 </p>
 <h1 align="center">Re-Krass Homepage</h1>
 <p align="center">
@@ -23,5 +23,8 @@
 <br>
 
 Visit:
-<a target="_blank" href="https://Re-Krass.github.io/">Homepage
-  </a>
+<a 
+  target="_blank" 
+  title="Visit: Re-Krass.github.io"
+  href="https://Re-Krass.github.io/">Homepage
+</a>
